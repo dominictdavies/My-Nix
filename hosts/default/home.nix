@@ -38,7 +38,7 @@
     pkgs.obsidian
 
     # Editors
-    pkgs.notepad-next
+    pkgs.notepadqq
     pkgs.vscode
 
     # Web Browser
