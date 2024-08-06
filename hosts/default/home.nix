@@ -40,8 +40,8 @@
     # Coding
     pkgs.vscode
 
-    # Browser
-    pkgs.chromium
+    # Web Browser
+    pkgs.google-chrome
 
     # Communication
     pkgs.discord
