@@ -37,7 +37,8 @@
     # Notes
     pkgs.obsidian
 
-    # Coding
+    # Editors
+    pkgs.notepad-next
     pkgs.vscode
 
     # Web Browser
