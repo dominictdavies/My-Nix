@@ -20,7 +20,31 @@
   home.packages = [
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
-    # pkgs.hello
+
+    # Git & GitHub
+    pkgs.git
+    pkgs.gh
+
+    # Terminal
+    pkgs.alacritty
+    pkgs.fzf
+    pkgs.zoxide
+
+    # Notes
+    pkgs.obsidian
+
+    # Coding
+    pkgs.vscode
+
+    # Browser
+    pkgs.chromium
+
+    # Communication
+    pkgs.discord
+
+    # Games
+    pkgs.steam
+    pkgs.minecraft
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
