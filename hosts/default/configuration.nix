@@ -110,6 +110,7 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     wget
+    unzip
     python3
 
     # Git & GitHub
