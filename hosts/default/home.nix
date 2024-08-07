@@ -25,10 +25,6 @@
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
 
-    # Git & GitHub
-    pkgs.git
-    pkgs.gh
-
     # Terminal
     pkgs.alacritty
     pkgs.fzf

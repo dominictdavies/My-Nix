@@ -110,6 +110,11 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     wget
+    python3
+
+    # Git & GitHub
+    pkgs.git
+    pkgs.gh
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
