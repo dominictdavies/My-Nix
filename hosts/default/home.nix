@@ -36,6 +36,7 @@
     # Editors
     pkgs.notepadqq
     pkgs.vscode
+    pkgs.inkscape
 
     # Web Browser
     pkgs.google-chrome
