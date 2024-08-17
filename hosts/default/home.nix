@@ -30,8 +30,11 @@
     pkgs.fzf
     pkgs.zoxide
 
-    # Tools
+    # Analysis Tools
     pkgs.baobab
+
+    # Android Tools
+    pkgs.android-tools
 
     # Notes
     pkgs.obsidian
