@@ -44,8 +44,9 @@
     # Communication
     pkgs.discord
 
-    # Music
+    # Music & Video
     pkgs.spotify
+    pkgs.vlc
 
     # Games
     pkgs.steam
