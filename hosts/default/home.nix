@@ -30,6 +30,9 @@
     pkgs.fzf
     pkgs.zoxide
 
+    # Tools
+    pkgs.baobab
+
     # Notes
     pkgs.obsidian
 
