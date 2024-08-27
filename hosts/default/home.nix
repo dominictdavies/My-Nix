@@ -27,6 +27,10 @@
     pkgs.fzf
     pkgs.zoxide
 
+    # Git & GitHub
+    pkgs.git
+    pkgs.gh
+
     # Analysis Tools
     pkgs.baobab
 
