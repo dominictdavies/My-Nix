@@ -106,9 +106,15 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  # Allow nh to find flake directory
+  environment.sessionVariables = {
+    FLAKE = "/home/dominictdavies/NixOS";
+  };
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
+    nh
     wget
     unzip
     python3
