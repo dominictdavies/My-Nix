@@ -115,6 +115,8 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     nh
+    nix-output-monitor
+    nvd
     wget
     unzip
     python3
