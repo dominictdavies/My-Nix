@@ -31,6 +31,9 @@
     pkgs.git
     pkgs.gh
 
+    # Prolog
+    pkgs.swiProlog
+
     # Analysis Tools
     pkgs.baobab
 
