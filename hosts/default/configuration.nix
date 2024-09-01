@@ -45,6 +45,9 @@
     LC_TIME = "en_AU.UTF-8";
   };
 
+  # Enable Framework update manager
+  services.fwupd.enable = true;
+
   # Enable the X11 windowing system.
   # You can disable this if you're only using the Wayland session.
   services.xserver.enable = true;
