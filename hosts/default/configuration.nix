@@ -45,8 +45,9 @@
     LC_TIME = "en_AU.UTF-8";
   };
 
-  # Enable Framework update manager
+  # Framework recommendations (https://wiki.nixos.org/wiki/Hardware/Framework/Laptop_13)
   services.fwupd.enable = true;
+  services.power-profiles-daemon.enable = true;
 
   # Enable the X11 windowing system.
   # You can disable this if you're only using the Wayland session.
