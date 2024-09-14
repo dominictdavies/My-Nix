@@ -54,6 +54,7 @@
 
     # Editors
     notepadqq
+    libreoffice-fresh
     vscode
     inkscape
 
