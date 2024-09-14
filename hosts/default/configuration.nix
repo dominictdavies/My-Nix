@@ -119,12 +119,20 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
+    # Prettier NixOS commands
     nh
     nix-output-monitor
     nvd
+
+    # URL grabber
     wget
+
+    # Zip manager
     unzip
+
+    # Python
     python3
+    python312Packages.pip
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
