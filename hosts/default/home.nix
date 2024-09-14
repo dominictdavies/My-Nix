@@ -50,6 +50,7 @@
 
     # Web Browser
     pkgs.google-chrome
+    pkgs.chromedriver
 
     # Communication
     pkgs.discord
