@@ -132,7 +132,6 @@
 
     # Python
     python3
-    python312Packages.pip
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
