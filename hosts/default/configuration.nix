@@ -135,7 +135,6 @@
 
     # Python
     python3
-    python312Packages.numpy
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
