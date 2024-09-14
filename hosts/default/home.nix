@@ -21,61 +21,61 @@
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
-  home.packages = [
+  home.packages = with pkgs; [
     # Terminal
-    pkgs.alacritty
-    pkgs.fzf
-    pkgs.zoxide
+    alacritty
+    fzf
+    zoxide
 
     # Git & GitHub
-    pkgs.git
-    pkgs.gh
+    git
+    gh
 
     # Prolog
-    pkgs.swiProlog
+    swiProlog
 
     # Analysis Tools
-    pkgs.baobab
+    baobab
 
     # Android Tools
-    pkgs.android-tools
+    android-tools
 
     # Notes
-    pkgs.obsidian
+    obsidian
 
     # Editors
-    pkgs.notepadqq
-    pkgs.vscode
-    pkgs.inkscape
+    notepadqq
+    vscode
+    inkscape
 
     # Web Browser
-    pkgs.google-chrome
-    pkgs.chromedriver
+    google-chrome
+    chromedriver
 
     # Communication
-    pkgs.discord
+    discord
 
     # Music & Video
-    pkgs.spotify
-    pkgs.vlc
+    spotify
+    vlc
 
     # Games
-    pkgs.steam
-    pkgs.minecraft
+    steam
+    minecraft
 
     # Custom Cursors
-    pkgs.posy-cursors
+    posy-cursors
 
     # # It is sometimes useful to fine-tune packages, for example, by applying
     # # overrides. You can do that directly here, just don't forget the
     # # parentheses. Maybe you want to install Nerd Fonts with a limited number of
     # # fonts?
-    # (pkgs.nerdfonts.override { fonts = [ "FantasqueSansMono" ]; })
+    # (nerdfonts.override { fonts = [ "FantasqueSansMono" ]; })
 
     # # You can also create simple shell scripts directly inside your
     # # configuration. For example, this adds a command 'my-hello' to your
     # # environment:
-    # (pkgs.writeShellScriptBin "my-hello" ''
+    # (writeShellScriptBin "my-hello" ''
     #   echo "Hello, ${config.home.username}!"
     # '')
   ];
