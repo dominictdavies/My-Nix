@@ -123,18 +123,6 @@
     nh
     nix-output-monitor
     nvd
-
-    # URL grabber
-    wget
-
-    # Zip manager
-    unzip
-
-    # GNU Compiler Collection
-    gcc-unwrapped
-
-    # Python
-    python3
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

@@ -27,12 +27,21 @@
     fzf
     zoxide
 
+    # URL grabber
+    wget
+
+    # Zip manager
+    unzip
+
+    # GNU Compiler Collection
+    gcc-unwrapped
+
+    # Python
+    python3
+
     # Git & GitHub
     git
     gh
-
-    # Prolog
-    swiProlog
 
     # Analysis Tools
     baobab
