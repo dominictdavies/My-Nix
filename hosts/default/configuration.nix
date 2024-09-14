@@ -130,6 +130,9 @@
     # Zip manager
     unzip
 
+    # GNU Compiler Collection
+    gcc-unwrapped
+
     # Python
     python3
     python312Packages.numpy
