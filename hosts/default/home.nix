@@ -39,6 +39,9 @@
     # Python
     python3
 
+    # Prolog
+    swi-prolog
+
     # Git & GitHub
     git
     gh
